@@ -6,9 +6,6 @@ lib.nixvim.plugins.mkNeovimPlugin {
   name = "mellifluous";
   isColorscheme = true;
   package = "mellifluous-nvim";
-  # The colorscheme option is set by the `setup` function.
-  colorscheme = null;
-  callSetup = false;
 
   maintainers = [ ];
 
